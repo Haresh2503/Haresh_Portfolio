@@ -64,7 +64,7 @@ nav a:hover,nav a.active{color:var(--text);border-color:var(--accent)}
 .bars b{flex:1;height:var(--h);border-radius:6px 6px 0 0;background:linear-gradient(180deg,var(--accent2),var(--accent));transform-origin:bottom;animation:grow 1s cubic-bezier(.2,.8,.2,1) backwards}
 .bars b:nth-child(2){animation-delay:.1s}.bars b:nth-child(3){animation-delay:.2s}.bars b:nth-child(4){animation-delay:.3s}.bars b:nth-child(5){animation-delay:.4s}.bars b:nth-child(6){animation-delay:.5s}
 @keyframes grow{from{transform:scaleY(0)}}
-.flow{display:flex;justify-content:space-between;gap:.5rem;margin-top:1rem;font-size:.85rem;color:var(--muted)}
+.flow{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;margin-top:1rem;font-size:.85rem;color:var(--muted)}
 .flow i{color:var(--accent);margin-right:.3rem}
 
 /* ===== 5. SECTIONS ===== */
